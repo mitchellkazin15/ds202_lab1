@@ -1,0 +1,13 @@
+---
+title: "owner_MitchellKazin"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+- Name: Mitchell Kazin
+- I tell them I do physics and computer science
+- My most important stategy for organizing work is to set a goal and keep working until that is finished
+- Interesting fact about me is I broke my arm on a bike with training wheels when I was 5
