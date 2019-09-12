@@ -1,0 +1,18 @@
+---
+title: "ds202_lab1"
+author: "Adam VanGorp"
+date: "9/5/2019"
+output: html_document
+---
+
+ + Your (the "Partner's") full name and GitHub username.
+Adam VanGorp -- Cygorp
+
+   + What did the Owner do in the most recent commit? What is the commit ID?
+He said "first commit" d280605d6530d6bbed6e104c50443e5238de2e4e
+
+   + Knit the Owner's `owner_YourName.Rmd`. Are you able to do so without error? If you cannot, what errors did you encounter?
+No error
+   + Also include one tip for making Git/GitHub easier, or an error/difficulty you encountered.
+Leave good messages on your commits.
+
