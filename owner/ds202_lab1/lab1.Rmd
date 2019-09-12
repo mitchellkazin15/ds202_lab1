@@ -1,0 +1,58 @@
+---
+title: "Lab1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 1. 
+
+```{r}
+  X = c(47,34,33,65,37,NA,43,NA,11,NA,23,NA)
+  count <- 0
+  for (x in X) {
+    if (is.na(x)) {
+      count <- count + 1
+    }
+  }
+  print(count)
+```
+
+## 2.
+
+```{r}
+   age = c(25,30,45,60,12,41)
+   smoker = c('T','F','T','F','F','F')
+   weight = c(120,137,0,168,91,142)
+   example_data = data.frame(age,smoker,weight)
+   example_data[3,3] <- 150
+   example_data
+```
+
+## 3.
+
+```{r, eval=FALSE}
+  average <- function(x) {
+    return(mean(is.na(x)))
+  }
+
+  fraction <- function(x) {
+    return(x / sum(x, na.rm = TRUE))
+  }
+```
+
+## 4.
+
+```{r, eval=FALSE}
+  average <- function(x,y) {
+    count <- 0
+    for (i in length(x)) {
+      if(is.na(x[i]) & is.na(y[i])){
+        count <- count + 1
+      }
+    }
+    return(count)
+  }
+```
